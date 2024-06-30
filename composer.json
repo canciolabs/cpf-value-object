@@ -1,0 +1,38 @@
+{
+    "name": "cancio-labs/cpf-value-object",
+    "description": "A class that represents a CPF (Brazilian ID)",
+    "type": "library",
+    "keywords": ["cpf", "brasil", "value object"],
+    "homepage": "https://github.com/canciolabs/cpf-value-object",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Nilo Soares",
+            "email": "nilosoares@gmail.com"
+        },
+        {
+            "name": "Cancio Labs",
+            "email": "canciolabs@gmail.com"
+        },
+        {
+            "name": "NSCPS Solutions",
+            "email": "nscpssolutions@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CancioLabs\\ValueObject\\Cep\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CancioLabs\\ValueObject\\Cep\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    }
+}
