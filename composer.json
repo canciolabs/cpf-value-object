@@ -21,12 +21,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "CancioLabs\\ValueObject\\Cep\\": "src/"
+            "CancioLabs\\ValueObject\\Cpf\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "CancioLabs\\ValueObject\\Cep\\Tests\\": "tests/"
+            "CancioLabs\\ValueObject\\Cpf\\Tests\\": "tests/"
         }
     },
     "require": {
